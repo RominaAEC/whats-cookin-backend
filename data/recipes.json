@@ -1,0 +1,372 @@
+[
+  {
+    "id": 1,
+    "name": "Shrimp Ceviche (Ecuadorian)",
+    "ingredients": [
+      "1 lb shrimp",
+      "10 limes",
+      "1 red onion",
+      "1 tomato",
+      "1 bell pepper",
+      "Cilantro",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook shrimp in boiling water for 2-3 minutes. Drain and cool.",
+      "Slice onion, tomato, and bell pepper thinly.",
+      "Juice the limes and mix with shrimp and vegetables.",
+      "Add chopped cilantro, salt, and pepper.",
+      "Let it marinate in the fridge for at least 30 minutes before serving."
+    ],
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 10,
+    "servings": 4,
+    "image": "http://localhost:8080/photos/Photo-00.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Peanut Sauce Rice Noodles",
+    "ingredients": [
+      "8 oz rice noodles",
+      "1/2 cup peanut butter",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "1 garlic clove",
+      "1 tsp chili flakes",
+      "1/4 cup water"
+    ],
+    "instructions": [
+      "Cook rice noodles according to package instructions.",
+      "In a bowl, mix peanut butter, soy sauce, sesame oil, minced garlic, chili flakes, and water to make the sauce.",
+      "Toss the noodles in the sauce until well coated.",
+      "Serve warm or cold."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 4,
+    "image": "http://localhost:8080/photos/Photo-01.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Chow Mein",
+    "ingredients": [
+      "8 oz chow mein noodles",
+      "1 cup shredded cabbage",
+      "1 carrot",
+      "1 bell pepper",
+      "2 tbsp soy sauce",
+      "1 tbsp oyster sauce",
+      "1 garlic clove",
+      "1 tsp ginger"
+    ],
+    "instructions": [
+      "Cook noodles according to package instructions.",
+      "Sauté garlic and ginger in oil.",
+      "Add shredded cabbage, carrot, and bell pepper. Stir-fry until tender.",
+      "Add cooked noodles, soy sauce, and oyster sauce. Toss to combine."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "image": "http://localhost:8080/photos/Photo-02.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Fried Rice",
+    "ingredients": [
+      "2 cups cooked rice",
+      "1 cup mixed vegetables",
+      "2 eggs",
+      "2 tbsp soy sauce",
+      "1 garlic clove",
+      "1 tsp ginger"
+    ],
+    "instructions": [
+      "Sauté garlic and ginger in oil.",
+      "Add mixed vegetables and cook until tender.",
+      "Push vegetables to the side and scramble eggs in the same pan.",
+      "Add cooked rice and soy sauce. Mix well and cook until heated through."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "image": "http://localhost:8080/photos/Photo-03.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Quinoa Salad",
+    "ingredients": [
+      "1 cup quinoa",
+      "1 cucumber",
+      "1 tomato",
+      "1 avocado",
+      "1/4 cup olive oil",
+      "1 lemon",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook quinoa according to package instructions.",
+      "Dice cucumber, tomato, and avocado.",
+      "Mix quinoa with vegetables.",
+      "Whisk olive oil, lemon juice, salt, and pepper. Pour over salad and toss."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "image": "http://localhost:8080/photos/Photo-04.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Tigrillo (Ecuadorian)",
+    "ingredients": [
+      "4 green plantains",
+      "4 eggs",
+      "1 onion",
+      "1 tomato",
+      "1 cup cheese",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Fry plantains until golden. Mash them.",
+      "Sauté onions and tomatoes.",
+      "Scramble eggs and mix with mashed plantains and sautéed vegetables.",
+      "Add cheese and stir until melted."
+    ],
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "image": "http://localhost:8080/photos/Photo-05.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Carbonara Pasta",
+    "ingredients": [
+      "8 oz spaghetti",
+      "4 oz pancetta",
+      "2 eggs",
+      "1/2 cup grated Parmesan",
+      "2 garlic cloves",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Cook spaghetti according to package instructions.",
+      "Sauté pancetta and garlic until crispy.",
+      "Whisk eggs and Parmesan in a bowl.",
+      "Toss cooked pasta with pancetta, then mix in egg and cheese mixture.",
+      "Serve immediately."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "image": "http://localhost:8080/photos/Photo-06.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Risotto",
+    "ingredients": [
+      "1 cup Arborio rice",
+      "4 cups chicken broth",
+      "1 onion",
+      "1/2 cup white wine",
+      "1/2 cup grated Parmesan",
+      "2 tbsp butter"
+    ],
+    "instructions": [
+      "Sauté onion in butter until soft.",
+      "Add rice and toast for 2 minutes.",
+      "Pour in wine and cook until absorbed.",
+      "Add broth one ladle at a time, stirring until absorbed.",
+      "Stir in Parmesan and serve."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "image": "http://localhost:8080/photos/Photo-07.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Pesto Pasta",
+    "ingredients": [
+      "8 oz pasta",
+      "1 cup basil",
+      "1/2 cup olive oil",
+      "1/4 cup pine nuts",
+      "2 garlic cloves",
+      "1/2 cup grated Parmesan"
+    ],
+    "instructions": [
+      "Cook pasta according to package instructions.",
+      "Blend basil, olive oil, pine nuts, garlic, and Parmesan to make pesto.",
+      "Toss pasta with pesto and serve."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "image": "http://localhost:8080/photos/Photo-08.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Banana Bread",
+    "ingredients": [
+      "3 ripe bananas",
+      "1/2 cup butter",
+      "1 cup sugar",
+      "2 eggs",
+      "2 cups flour",
+      "1 tsp baking soda"
+    ],
+    "instructions": [
+      "Mash bananas and mix with melted butter.",
+      "Add sugar, eggs, and mix well.",
+      "Stir in flour and baking soda.",
+      "Pour into a greased loaf pan and bake at 350°F (175°C) for 1 hour."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 60,
+    "servings": 8,
+    "image": "http://localhost:8080/photos/Photo-09.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Cauliflower Cream Soup",
+    "ingredients": [
+      "1 head cauliflower",
+      "1 onion",
+      "2 cups vegetable broth",
+      "1 cup milk",
+      "2 tbsp butter",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Sauté onion in butter until soft.",
+      "Add cauliflower and broth. Simmer until tender.",
+      "Blend until smooth.",
+      "Stir in milk and season with salt and pepper."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "image": "http://localhost:8080/photos/Photo-10.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Burritos",
+    "ingredients": [
+      "4 large tortillas",
+      "1 cup cooked rice",
+      "1 cup beans",
+      "1 cup shredded cheese",
+      "1 cup salsa",
+      "1 avocado"
+    ],
+    "instructions": [
+      "Fill tortillas with rice, beans, cheese, salsa, and avocado slices.",
+      "Fold the sides and roll tightly.",
+      "Serve warm."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 5,
+    "servings": 4,
+    "image": "http://localhost:8080/photos/Photo-11.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Overnight Oats",
+    "ingredients": [
+      "1 cup rolled oats",
+      "1 cup milk",
+      "1 tbsp honey",
+      "1/2 cup berries",
+      "1 tbsp chia seeds"
+    ],
+    "instructions": [
+      "Mix oats, milk, honey, and chia seeds in a jar.",
+      "Refrigerate overnight.",
+      "Top with berries before serving."
+    ],
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "image": "http://localhost:8080/photos/Photo-12.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Encebollado",
+    "ingredients": [
+      "2 lbs albacore tuna",
+      "6 cups water",
+      "2 onions, sliced",
+      "3 tomatoes, chopped",
+      "1 lb yuca, peeled and chopped",
+      "1 tbsp cumin",
+      "1 tbsp achiote powder",
+      "Salt and pepper to taste",
+      "Chopped cilantro for garnish"
+    ],
+    "instructions": [
+      "Boil tuna in water with salt, then remove and shred.",
+      "In a separate pot, sauté onions and tomatoes with achiote and cumin.",
+      "Add yuca and cooking broth, then simmer until tender.",
+      "Return shredded tuna, season to taste, and serve hot with cilantro."
+    ],
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "servings": 4,
+    "image": "http://localhost:8080/photos/Photo-13.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Bolón de Verde",
+    "ingredients": [
+      "3 green plantains, peeled and chopped",
+      "1/2 cup cheese (queso fresco or mozzarella)",
+      "1/2 cup chicharrón or bacon bits",
+      "1 tbsp butter",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Boil or fry plantains until soft.",
+      "Mash them with butter and salt, then mix with cheese and chicharrón.",
+      "Form into balls and optionally fry until golden brown.",
+      "Serve warm with coffee or eggs."
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "servings": 3,
+    "image": "http://localhost:8080/photos/Photo-14.jpg"
+  },
+  {
+    "name": "Pancakes",
+    "ingredients": [
+      "1 cup flour",
+      "1 cup milk",
+      "1 egg"
+    ],
+    "instructions": [
+      "Mix ingredients",
+      "Cook on a hot griddle"
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 5,
+    "servings": 4,
+    "id": 16,
+    "image": "http://localhost:8080/photos/Photo-15.jpg"
+  },
+  {
+    "name": "Wafles",
+    "ingredients": [
+      "1 cup flour",
+      "1 cup milk",
+      "1 egg"
+    ],
+    "instructions": [
+      "Mix ingredients",
+      "Cook on a hot griddle"
+    ],
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 5,
+    "servings": 4,
+    "id": 17,
+    "image": "http://localhost:8080/photos/Photo-15.jpg"
+  }
+]
