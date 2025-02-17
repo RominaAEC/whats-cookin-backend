@@ -105,7 +105,7 @@ router.delete("/:id", (req, res) => {
         }
 
         // Remove the recipe
-        const deletedRecipe = recipes.splice(recipeIndex, 1);
+        recipes.splice(recipeIndex, 1);
         writeRecipes(recipes);
 
         res.status(200).json({ message: "Recipe deleted successfully" });
