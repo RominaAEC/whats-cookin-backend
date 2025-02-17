@@ -334,39 +334,5 @@
     "cookTimeMinutes": 25,
     "servings": 3,
     "image": "http://localhost:8080/photos/Photo-14.jpg"
-  },
-  {
-    "name": "Pancakes",
-    "ingredients": [
-      "1 cup flour",
-      "1 cup milk",
-      "1 egg"
-    ],
-    "instructions": [
-      "Mix ingredients",
-      "Cook on a hot griddle"
-    ],
-    "prepTimeMinutes": 10,
-    "cookTimeMinutes": 5,
-    "servings": 4,
-    "id": 16,
-    "image": "http://localhost:8080/photos/Photo-15.jpg"
-  },
-  {
-    "name": "Wafles",
-    "ingredients": [
-      "1 cup flour",
-      "1 cup milk",
-      "1 egg"
-    ],
-    "instructions": [
-      "Mix ingredients",
-      "Cook on a hot griddle"
-    ],
-    "prepTimeMinutes": 10,
-    "cookTimeMinutes": 5,
-    "servings": 4,
-    "id": 17,
-    "image": "http://localhost:8080/photos/Photo-15.jpg"
   }
 ]
