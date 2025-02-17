@@ -68,5 +68,51 @@ router.post("/", (req, res) => {
     }
 });
 
+// PUT (update) an existing recipe by ID
+router.put("/:id", (req, res) => {
+    try {
+        const recipes = readRecipes();
+        const recipeId = Number(req.params.id);
+        const updatedRecipe = req.body;
+
+        // Find the recipe to update
+        const recipeIndex = recipes.findIndex((p) => p.id === recipeId);
+        if (recipeIndex === -1) {
+            return res.status(404).json({ error: "Recipe not found" });
+        }
+
+        // Update the recipe
+        recipes[recipeIndex] = { ...recipes[recipeIndex], ...updatedRecipe };
+        writeRecipes(recipes);
+
+        res.json(recipes[recipeIndex]);
+    } catch (error) {
+        console.error("Error updating recipe:", error);
+        res.status(500).json({ error: "Unable to update recipe" });
+    }
+});
+
+// DELETE a recipe by ID
+router.delete("/:id", (req, res) => {
+    try {
+        const recipes = readRecipes();
+        const recipeId = Number(req.params.id);
+
+        // Find the recipe to delete
+        const recipeIndex = recipes.findIndex((p) => p.id === recipeId);
+        if (recipeIndex === -1) {
+            return res.status(404).json({ error: "Recipe not found" });
+        }
+
+        // Remove the recipe
+        const deletedRecipe = recipes.splice(recipeIndex, 1);
+        writeRecipes(recipes);
+
+        res.status(200).json({ message: "Recipe deleted successfully" });
+    } catch (error) {
+        console.error("Error deleting recipe:", error);
+        res.status(500).json({ error: "Unable to delete recipe" });
+    }
+});
 
 export default router;
