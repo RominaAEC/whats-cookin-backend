@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Shrimp Ceviche (Ecuadorian)",
+    "name": "Shrimp Ceviche",
     "ingredients": [
       "1 lb shrimp",
       "10 limes",
@@ -21,7 +21,7 @@
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 10,
     "servings": 4,
-    "image": "http://localhost:8080/photos/Photo-00.jpg"
+    "image": "http://localhost:8080/recipes/Photo-00.jpg"
   },
   {
     "id": 2,
@@ -44,7 +44,7 @@
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 4,
-    "image": "http://localhost:8080/photos/Photo-01.jpg"
+    "image": "http://localhost:8080/recipes/Photo-01.jpg"
   },
   {
     "id": 3,
@@ -68,7 +68,7 @@
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 15,
     "servings": 4,
-    "image": "http://localhost:8080/photos/Photo-02.jpg"
+    "image": "http://localhost:8080/recipes/Photo-02.jpg"
   },
   {
     "id": 4,
@@ -90,7 +90,7 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 15,
     "servings": 4,
-    "image": "http://localhost:8080/photos/Photo-03.jpg"
+    "image": "http://localhost:8080/recipes/Photo-03.jpg"
   },
   {
     "id": 5,
@@ -113,7 +113,7 @@
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 15,
     "servings": 4,
-    "image": "http://localhost:8080/photos/Photo-04.jpg"
+    "image": "http://localhost:8080/recipes/Photo-04.jpg"
   },
   {
     "id": 6,
@@ -135,7 +135,7 @@
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 4,
-    "image": "http://localhost:8080/photos/Photo-05.jpg"
+    "image": "http://localhost:8080/recipes/Photo-05.jpg"
   },
   {
     "id": 7,
@@ -158,7 +158,7 @@
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 15,
     "servings": 4,
-    "image": "http://localhost:8080/photos/Photo-06.jpg"
+    "image": "http://localhost:8080/recipes/Photo-06.jpg"
   },
   {
     "id": 8,
@@ -181,7 +181,7 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 30,
     "servings": 4,
-    "image": "http://localhost:8080/photos/Photo-07.jpg"
+    "image": "http://localhost:8080/recipes/Photo-07.jpg"
   },
   {
     "id": 9,
@@ -202,7 +202,7 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 15,
     "servings": 4,
-    "image": "http://localhost:8080/photos/Photo-08.jpg"
+    "image": "http://localhost:8080/recipes/Photo-08.jpg"
   },
   {
     "id": 10,
@@ -224,7 +224,7 @@
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 60,
     "servings": 8,
-    "image": "http://localhost:8080/photos/Photo-09.jpg"
+    "image": "http://localhost:8080/recipes/Photo-09.jpg"
   },
   {
     "id": 11,
@@ -246,7 +246,7 @@
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "servings": 4,
-    "image": "http://localhost:8080/photos/Photo-10.jpg"
+    "image": "http://localhost:8080/recipes/Photo-10.jpg"
   },
   {
     "id": 12,
@@ -267,7 +267,7 @@
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 5,
     "servings": 4,
-    "image": "http://localhost:8080/photos/Photo-11.jpg"
+    "image": "http://localhost:8080/recipes/Photo-11.jpg"
   },
   {
     "id": 13,
@@ -287,7 +287,7 @@
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 0,
     "servings": 2,
-    "image": "http://localhost:8080/photos/Photo-12.jpg"
+    "image": "http://localhost:8080/recipes/Photo-12.jpg"
   },
   {
     "id": 14,
@@ -312,7 +312,7 @@
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 40,
     "servings": 4,
-    "image": "http://localhost:8080/photos/Photo-13.jpg"
+    "image": "http://localhost:8080/recipes/Photo-13.jpg"
   },
   {
     "id": 15,
@@ -333,6 +333,60 @@
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 25,
     "servings": 3,
-    "image": "http://localhost:8080/photos/Photo-14.jpg"
+    "image": "http://localhost:8080/recipes/Photo-14.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Test",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "servings": 2,
+    "ingredients": [
+      "test",
+      "test"
+    ],
+    "instructions": [
+      "test",
+      "test",
+      "test",
+      "test"
+    ],
+    "image": "http://localhost:8080/recipes/Photo-15.jpg"
+  },
+  {
+    "id": 17,
+    "name": "test 2",
+    "prepTimeMinutes": 13,
+    "cookTimeMinutes": 43,
+    "servings": 3,
+    "ingredients": [
+      "hjdbjnd",
+      "fdfgd",
+      "sdffd",
+      "dffdgd"
+    ],
+    "instructions": [
+      "ddddd",
+      "gggg",
+      "eeee",
+      "ebri snbufbhnr sdjsjes",
+      "dffd resxfe "
+    ],
+    "image": "http://localhost:8080/recipes/Photo-15.jpg"
+  },
+  {
+    "id": 18,
+    "name": "test 3",
+    "prepTimeMinutes": 1,
+    "cookTimeMinutes": 1,
+    "servings": 1,
+    "ingredients": [
+      "ddsd"
+    ],
+    "instructions": [
+      "dsfd",
+      "sdds fsdes "
+    ],
+    "image": "http://localhost:8080/recipes/Photo-15.jpg"
   }
 ]

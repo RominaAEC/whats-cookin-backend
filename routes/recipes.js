@@ -54,7 +54,7 @@ router.post("/", (req, res) => {
         const recipeToAdd = {
             id: newId, 
             ...newRecipe, 
-            image: newRecipe.image || "http://localhost:8080/photos/Photo-09.jpg"
+            image: newRecipe.image || "http://localhost:8080/recipes/Photo-15.jpg"
         };
 
         // Add the new recipe
