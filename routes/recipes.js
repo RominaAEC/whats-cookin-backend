@@ -1,6 +1,6 @@
 import express from "express";
 import { readFileSync, writeFileSync } from "fs";
-import { v4 as uuidv4 } from "uuid";
+
 
 const router = express.Router();
 const recipesFile = "./data/recipes.json";
@@ -24,7 +24,7 @@ router.get("/", (_, res)=>{
 router.get("/:id", (req, res)=>{
     try{
         const recipes = readRecipes();
-        const recipeId = req.params.id;
+        const recipeId = Number(req.params.id);
         const recipe = recipes.find((p) => p.id === recipeId);
 
         if (!recipe) {
@@ -49,7 +49,8 @@ router.post("/", (req, res) => {
         }
 
         // Generate a new ID 
-        const newId = uuidv4();
+        const newId = recipes.length > 0 ? recipes[recipes.length - 1].id + 1 : 1;
+        newRecipe.id = newId;
 
         const recipeToAdd = {
             id: newId, 
