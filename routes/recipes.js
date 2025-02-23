@@ -37,14 +37,23 @@ router.get("/:id", (req, res)=>{
     }
 });
 
+
 // POST a new recipe
 router.post("/", (req, res) => {
     try {
         const recipes = readRecipes();
         const newRecipe = req.body;
 
+
         // Validate required fields
-        if (!newRecipe.name || !newRecipe.ingredients || !newRecipe.instructions || !newRecipe.prepTimeMinutes || !newRecipe.cookTimeMinutes || !newRecipe.servings ) {
+       if (
+            newRecipe.name === undefined || newRecipe.name === null || newRecipe.name.trim() === "" ||
+            newRecipe.ingredients === undefined || newRecipe.ingredients === null || newRecipe.ingredients.length === 0 ||
+            newRecipe.instructions === undefined || newRecipe.instructions === null || newRecipe.instructions.length === 0 ||
+            newRecipe.prepTimeMinutes === undefined || newRecipe.prepTimeMinutes === null ||
+            newRecipe.cookTimeMinutes === undefined || newRecipe.cookTimeMinutes === null ||
+            newRecipe.servings === undefined || newRecipe.servings === null
+        ) {
             return res.status(400).json({ error: "Missing required fields" });
         }
 

@@ -334,52 +334,5 @@
     "cookTimeMinutes": 25,
     "servings": 3,
     "image": "http://localhost:8080/recipes/Photo-14.jpg"
-  },
-  {
-    "id": 46,
-    "name": "Rice wih beans",
-    "prepTimeMinutes": 15,
-    "cookTimeMinutes": 35,
-    "servings": 2,
-    "ingredients": [
-      "1 cup rice",
-      "salt"
-    ],
-    "instructions": [
-      "cook rice",
-      "cook lentils",
-      "mix booth",
-      "add salt",
-      "add tomato"
-    ],
-    "image": "http://localhost:8080/recipes/Photo-15.jpg"
-  },
-  {
-    "id": 47,
-    "name": "test search",
-    "prepTimeMinutes": "20",
-    "cookTimeMinutes": "20",
-    "servings": "5",
-    "ingredients": [
-      "test"
-    ],
-    "instructions": [
-      "test"
-    ],
-    "image": "http://localhost:8080/recipes/Photo-15.jpg"
-  },
-  {
-    "id": 48,
-    "name": "test 19",
-    "prepTimeMinutes": 3,
-    "cookTimeMinutes": 3,
-    "servings": 3,
-    "ingredients": [
-      "fds"
-    ],
-    "instructions": [
-      "edd"
-    ],
-    "image": "http://localhost:8080/recipes/Photo-15.jpg"
   }
 ]
